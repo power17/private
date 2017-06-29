@@ -1,0 +1,99 @@
+.jd_header{
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+.jd_topbar{
+    width: 100%;
+    height: 44px;
+    position: relative;
+
+}
+.jd_header .icon_back{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 38px;
+    height: 44px;
+    background-position: -20px 0;
+    padding: 12px 9px;
+    background-clip: content-box;
+    -webkit-background-clip: content-box;
+    background-origin: content-box;
+    -webkit-background-origin: content-box;
+}
+.jd_topbar .form{
+    width: 100%;
+    height: 44px;
+    padding-left: 40px;
+    padding-right: 50px;
+
+}
+.jd_topbar .icon_search{
+    position: absolute;
+    left: 50px;
+    top: 12px;
+    background-position: -60px -109px;
+    width: 20px;
+    height: 20px;
+}
+.jd_topbar input{
+    width: 100%;
+    height: 34px;
+    margin-top: 5px;
+    padding-left: 75px;
+    border: 1px solid #e0e0e0;
+}
+.jd_topbar .icon_shortcut{
+    width: 40px;
+    height: 44px;
+    background-position: -60px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 10px;
+
+    /* 背景图相对于内容框来定位 */
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+    /* 背景图定位从内容开始计算 */
+    -webkit-background-origin: content-box;
+    background-origin: content-box;
+}
+.jd_header .jd_shortcut{
+    width: 100%;
+    height: 57px;
+}
+.jd_header .jd_shortcut ul{
+    width: 100%;
+    height: 100%;
+}
+.jd_header .jd_shortcut ul li{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: #404042;
+    text-align: center;
+
+}
+.jd_header .jd_shortcut ul li span{
+    margin: 5px auto;
+    display: block;
+    width: 30px;
+    height: 27px;
+}
+.jd_header .jd_shortcut ul li .icon_home{
+    background-position: -30px -27px;
+}
+.jd_header .jd_shortcut ul li .icon_category{
+    background-position: -60px -27px;
+}
+.jd_header .jd_shortcut ul li .icon_cart{
+    background-position: -90px -27px;
+}
+.jd_header .jd_shortcut ul li .icon_me{
+    background-position: -120px -27px;
+}
+.jd_header .jd_shortcut ul li p{
+    color: #ffffff;
+}

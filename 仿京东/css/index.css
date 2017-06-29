@@ -1,0 +1,306 @@
+body{
+    background: #f3f3f3;
+}
+.jd_viewport{
+    min-width: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    /*border: 1px solid #000;*/
+}
+.jd_viewport .jd_header{
+    width: 100%;
+    height: 44px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+.jd_header .jd_topbar{
+    min-width: 300px;
+    max-width: 600px;
+    height: 44px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #d3391d;
+}
+.jd_topbar .icon_logo{
+    width: 60px;
+    height: 30px;
+    background-position:0 -103px;
+    position: absolute;
+    left: 5px;
+    top: 7px;
+}
+.jd_topbar .jd_login{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+.jd_topbar form{
+    padding-left: 70px;
+    padding-right: 50px;
+}
+.jd_topbar form input{
+    width: 100%;
+    height: 34px;
+    padding-left: 30px;
+    border-radius: 17px;
+    border: 1px solid #e0e0e0;
+    margin-top: 5px;
+
+}
+/*焦点图*/
+.jd_viewport .jd_banner{
+    width: 100%;
+    /*height: 350px;*/
+    position: relative;
+    overflow: hidden;
+}
+.jd_banner ul{
+    width: 1000%;
+    transform: translateX(-10%);
+    -webkit-transform: translateX(-10%);
+    /*position: absolute;*/
+}
+.jd_banner ul li{
+    width: 10%;
+    float: left;
+}
+.jd_banner ul li a{
+    display: block;
+    width: 100%;
+}
+.jd_banner ul li img{
+    width: 100%;
+}
+.jd_banner ol{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -60px;
+}
+.jd_banner ol li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+    border: 1px solid white;
+    float: left;
+}
+.jd_banner .current{
+    background-color: white;
+}
+/*分类导航*/
+.jd-categories ul li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+.jd-categories ul li img{
+    width: 40px;
+}
+.jd-categories ul li span{
+    display: block;;
+    width: 100%;
+    margin-top: 3px;
+}
+/*产品中心*/
+/*第一部分*/
+.jd_main .main_topic{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    /*border: 1px solid #000;*/
+}
+.jd_main .time{
+    width: 100px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    /*border: 1px solid #000;*/
+}
+.main_timer .seckill_img{
+    width: 69px;
+    height: 27px;
+    float: left;
+    margin-right: 5px;
+}
+.jd_main .sec_background{
+    float: left;
+    line-height: 28px;
+    margin-right:15px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #000;
+}
+.timer_timer{
+    width: 18px;
+    height: 17px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    text-align: center;
+}
+.main_timer span{
+    float: left;
+    height: 17px;
+    text-align: center;
+    line-height: 17px;
+}
+.jd_main .main_topic .colon{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.jd_main .more{
+    line-height: 28px;
+    font-size: 15px;
+    color: #f13131;
+    float: right;
+    padding-right: 30px;
+    position: relative;
+    font-weight: 500;
+
+}
+.jd_main .more::after{
+    content: ".";
+    width: 12px;
+    height: 12px;
+    background: url("../images/arrow_rt.png") no-repeat;
+    background-size: 12px 12px;
+    border-radius: 50%;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+.main_content li {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    /*padding: 20px;*/
+}
+.main_content li a{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border-right:1px solid #e0e0e0;
+}
+.main_content li:last-child a{
+    border-right:none;
+}
+.main_content li img{
+    width: 100%;
+}
+.price{
+    font-size: 20px;
+    color:#f13131 ;
+    font-weight: 600;
+    line-height: 28px;
+}
+.price_a{
+    color: #747770;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+/*第二部分*/
+.jd_main .section_h3 h3{
+    line-height: 40px;
+    padding-left: 10px;
+    font-weight: 500;
+
+}
+.jd_main .section_h3 h3::before{
+    vertical-align: middle;
+    content:"";
+    margin-right: 5px;
+    display: inline-block;
+    line-height: 40px;
+    width: 4px;
+    height: 26px;
+    background-color: #f22928;
+}
+.jd_main .section_left{
+    width: 50%;
+    float: left;
+}
+.jd_main img{
+    width: 99%;
+}
+.jd_main .section_right{
+    float: right;
+    width: 50%;
+}
+/*为你推荐*/
+.recommend .recommend_h3{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #1d1f21;
+    position: relative;
+}
+.recommend .recommend_h3::before{
+    content: "";
+    display: block;
+    width: 21px;
+    height: 21px;
+    vertical-align: middle;
+    position: absolute;
+    left: 235px;
+    top: 12px;
+    background: url("../images/intro_arrow.png") no-repeat;
+    background-size: 20px 20px;
+}
+.recommend_content{
+    width: 50%;
+    float: left;
+    padding: 5px;
+    border: 1px solid white;
+    margin-bottom: 60px;
+}
+.recommend_content img{
+     width: 100%;
+ }
+.recommend_content p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.recommend_content span{
+    font-size: 20px;
+    color: #f12a26;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+}
+.recommend_content .recommend_a{
+    float: right;
+    font-size: 15px;
+    text-align: center;
+    padding-right: 30px;
+}
+/*底部*/
+.jd_footer{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #e0e0e0;
+    background-color: white;
+    box-shadow: 0 -2px 2px #ccc;
+
+}
+.jd_footer ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.jd_footer ul li img{
+    width: 65px;
+
+}
